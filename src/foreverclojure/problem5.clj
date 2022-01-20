@@ -5,4 +5,4 @@
 ; (= __ (conj '(3 4) 2 1))
 (defn -main []
   (println (= '(1 2 3 4) (conj '(2 3 4) 1)))
-  (println (= '(1 2 3 4) (conj '(2 3 4) 1))))
+  (println (= '(1 2 3 4) (conj '(3 4) 2 1))))

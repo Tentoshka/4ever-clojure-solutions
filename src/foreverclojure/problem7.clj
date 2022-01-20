@@ -4,5 +4,5 @@
 ; (= __ (conj [1 2 3] 4))
 ; (= __ (conj [1 2] 3 4))
 (defn -main []
-  (println(= [1 2 3 4] (conj [1 2 3] 4)))
+  (println (= [1 2 3 4] (conj [1 2 3] 4)))
   (println (= [1 2 3 4] (conj [1 2] 3 4))))
